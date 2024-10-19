@@ -1,8 +1,8 @@
 const { AoiClient } = require("aoi.js");
 
 const client = new AoiClient({
-    token: process.env.token, // Here goes the Token you copied earlier!
-    prefix: "!!", // Here goes the prefix you want to use for your bot!
+    token: "TOKEN", // Here goes the Token you copied earlier!
+    prefix: "!", // Here goes the prefix you want to use for your bot!
     intents: ["MessageContent", "Guilds", "GuildMessages", "GuildPresences", "GuildVoiceStates"],
     events: ["onMessage", "onInteractionCreate"],
     database: {
